@@ -3,7 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    <script>
+        // --- THE MASTER TOGGLE ---
+        // Set to true to force everyone to /maintenance
+        // Set to false to let them stay on the index/portal
+        const isMaintenanceSet = true; 
+
+        if (isMaintenanceSet) {
+            window.location.href = "maintenance.html";
+        }
+    </script>
+
     <title>Careers Portal | High-Paying Remote & Local Job Matching</title>
     <meta name="description" content="Join our premium recruiting network to find high-paying roles in Tech, Admin, and Marketing. Get personalized salary data and direct interview matching.">
     <link rel="icon" href="https://cdn.jsdelivr.net/gh/twitter/twemoji@v14.0.2/assets/72x72/1f4bc.png">
